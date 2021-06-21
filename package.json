@@ -1,0 +1,45 @@
+{
+    "name": "things",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@reach/router": "^1.3.4",
+        "@reduxjs/toolkit": "^1.1.0",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "install": "^0.13.0",
+        "npm": "^6.14.8",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-redux": "^7.1.3",
+        "react-scripts": "3.4.1",
+        "prettier": "^2.0.5"
+    },
+    "scripts": {
+        "build": "react-scripts build",
+        "fmt:check": "prettier \"**/*.{js,json,css,html,yml}\" --check",
+        "fmt": "prettier \"**/*.{js,json,css,html,yml}\"  --write",
+        "start": "react-scripts start",
+        "test": "react-scripts test"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120
+    }
+}
